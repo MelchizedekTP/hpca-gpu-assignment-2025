@@ -1,5 +1,5 @@
 CUDA_PATH ?= /usr/local/cuda
-NVCC      ?= $(CUDA_PATH)/bin/nvcc
+NVCC      ?= /usr/bin/nvcc
 
 ARCH      ?= -gencode arch=compute_61,code=sm_61 \
              -gencode arch=compute_70,code=sm_70 \
